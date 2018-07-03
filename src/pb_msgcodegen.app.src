@@ -1,15 +1,12 @@
-{application, pb_msgcodegen,
- [{description, "A rebar plugin"},
-  {vsn, "0.1.0"},
-  {registered, []},
-  {applications,
-   [kernel,
-    stdlib
-   ]},
-  {env,[]},
-  {modules, []},
+{application, pb_msgcodegen, [
+    {description, "A rebar plugin for generate pb msgcode from *.csv file"},
+    {vsn, "0.2.0"},
+    {registered, []},
+    {applications, [kernel, stdlib]},
+    {env, []},
+    {modules, []},
 
-  {maintainers, []},
-  {licenses, []},
-  {links, []}
- ]}.
+    {maintainers, []},
+    {licenses, []},
+    {links, []}
+]}.
